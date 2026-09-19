@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +61,7 @@ body {
 }
 .loader h1 span {
   color: red;
-  text-shadow: 0 0 30px red;
+  text-shadow: 0 0 10px red;
 }
 .loaderLine {
   width: 0;
@@ -430,6 +431,7 @@ footer span {
     width: 210px;
     height: 210px;
   }
+
   h1 {
     font-size: 50px;
     letter-spacing: -3px;
@@ -515,4 +517,8 @@ footer span {
   background: #ff3333;
   transform: scale(1.04);
   box-shadow: 0 0 20px red;
+}
+/*اخفاء الموس الابيض الاصبي*/
+body {
+  cursor: none;
 }
